@@ -32,9 +32,9 @@ VITE_SUPABASE_URL=https://kivpdiyzyurkwobcvxxk.supabase.co
 VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key
 ```
 
-> **Security Note:** Only use your Supabase **publishable / anon** key in `VITE_SUPABASE_PUBLISHABLE_KEY`. Never place a `service_role` key, secret key, or database password in frontend environment variables.
+> **Security Note:** Only use your Supabase **publishable / anon** key in `sb_publishable_PmmUGQUWWumwrMt4oDOmPQ_NrpD117C`. Never place a `service_role` key, secret key, or database password in frontend environment variables.
 
-If either `VITE_SUPABASE_URL` or `VITE_SUPABASE_PUBLISHABLE_KEY` is missing, the portal will display an explicit configuration warning on authentication and dashboard screens.
+If either `VITE_SUPABASE_URL` or `sb_publishable_PmmUGQUWWumwrMt4oDOmPQ_NrpD117C` is missing, the portal will display an explicit configuration warning on authentication and dashboard screens.
 
 ---
 
